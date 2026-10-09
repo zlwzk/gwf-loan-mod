@@ -1,0 +1,20 @@
+# 反编译的游戏源码（版权原因与体积，不入库）
+decomp/
+decomp_full/
+decomp_mirror/
+
+# 第三方二进制与分发包（从 BepInEx 官方获取，见 README）
+vendor/
+dist-package/
+
+# 构建产物
+build/
+src/obj/
+src/bin/
+
+# 分发 zip 与临时文件
+*.zip
+.git_msg.txt
+
+# 开发用反编译工具输出
+tools/
